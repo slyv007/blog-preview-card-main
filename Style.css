@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --yellow-color: hsl(47, 88%, 63%);
+    --justwhite: hsl(0, 0%, 100%);
+    --greyone: hsl(0, 0%, 50%);
+    --deepblack: hsl(0, 0%, 7%);
+    --para: 16px;
+}
+
+body{
+    max-width: 1440px;
+    min-width: 375px;
+    font-family: "figtree", "sans-serif";
+    background-color: var(--yellow-color);
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: var(--justwhite);
+    padding: 10px;
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-image{
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.card-body{
+    width: 100%;
+    height: 330px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card-image img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.learning{
+    margin: 2rem 0;
+}
+.learning b{
+    background-color: var(--yellow-color);
+    padding: 10px 15px;
+}
+.learning p{
+    color: var(--deepblack);
+    margin-top: 2rem;
+    font-size: var(--para);
+}
+.foundation{
+    
+}
+.foundation h2{
+    color: var(--deepblack);
+}
+.foundation p{
+    color: var(--greyone);
+}
+.avatar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.avatar img{
+    border-radius: 50%;
+
+}
